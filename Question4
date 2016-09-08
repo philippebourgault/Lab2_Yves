@@ -1,0 +1,26 @@
+
+
+echo -n "\nQue voulez vous faire avec le fichier $NomFichier1 ? "
+echo -n "\nEffacer, Copier, Deplacer, Quitter [EeCcDdQq]"
+read text
+echo "$text de $NomFichier1"
+
+
+if [$text='E'] || [$text="e"]
+then
+        echo "Salut Bruno !"
+        
+elif if [$text='D'] || [$text="d"]
+then
+        echo "Bien le bonjour Michel"
+        
+elif if [$text='C'] || [$text="c"]
+then
+        echo "Hé Jean, ça va ?"
+        
+elif if [$text='Q'] || [$text="q"]
+then
+        echo "Hé Jean, ça va ?"
+else
+        echo "J'te connais pas, ouste !"
+fi

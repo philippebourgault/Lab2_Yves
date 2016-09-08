@@ -1,0 +1,8 @@
+FILE=$1
+
+if [ -f ./$FILE ]; 
+then
+echo "C<est un fichier"
+else
+echo "C,est pas un fichier"
+fi

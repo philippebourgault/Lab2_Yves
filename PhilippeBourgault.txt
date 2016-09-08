@@ -1,0 +1,343 @@
+    1  help
+    2  help sudo
+    3  man
+    4  a
+    5  cat
+    6  user @root@
+    7  user root
+    8  user "root"
+    9  sudo help
+   10  help
+   11  sudo help
+   12  help
+   13  date
+   14  who
+   15  whoami
+   16  help date
+   17  time
+   18  times
+   19  history
+   20  help date
+   21  date
+   22  help history
+   23  help
+   24  help ls
+   25  ls
+   26  info ls
+   27  ls -l
+   28  cd desktop
+   29  cd
+   30  cd user
+   31  cd users
+   32  c
+   33  cd
+   34  cd home
+   35  info date
+   36  cd 
+   37  cd /home/phil
+   38  cd phil
+   39  cd
+   40  cd home/phil
+   41  cd /home/phil
+   42  cd /home/phil/Racine
+   43  cd /home/phil/Desktop/Racine
+   44  help md
+   45  md b3
+   46  mkdir b3
+   47  del B2
+   48  ls B2
+   49  pwd B2
+   50  cd b1
+   51  cd
+   52  Desktop/Racine
+   53  cd /home/phil/Desktop
+   54  cd Racine
+   55  rm B2
+   56  rmdir B2
+   57  cd B2
+   58  rm f3.txt
+   59  cd /home/phil/Desktop/Racine
+   60  rmdir B2
+   61  type f3.txt
+   62  ls
+   63  b2
+   64  cd b2
+   65  mv f3.txt /home/phil/Desktop/Racine
+   66  ls
+   67  ..
+   68  cd ..
+   69  cd .
+   70  ls
+   71  rmdir b2
+   72  ls
+   73  mkdir Banane
+   74  ls
+   75  mk salut
+   76  rmdir Banane
+   77  ls
+   78  con salut.txt
+   79  ls
+   80  touch salut.txt
+   81  ls
+   82  touch bo
+   83  ls
+   84  rm bo
+   85  ls
+   86  rm salut.txt
+   87  ls
+   88  ls -l
+   89  find b*
+   90  ls
+   91  cd b1
+   92  ls
+   93  cd ..
+   94  cd b3
+   95  ls
+   96  touch f1.txt
+   97  touch f2.txt
+   98  touch f4.txt
+   99  ls
+  100  cd ..
+  101  ls
+  102  find b*
+  103  ls -l
+  104  root
+  105  cd..
+  106  cd ..
+  107  cd .
+  108  cd ..
+  109  cd
+  110  cd /home/phil/
+  111  cd /home/phil/Desktop
+  112  touch Legume.txt
+  113  cd Racine
+  114  cd ..
+  115  cd .
+  116  mv Legume.txt Henry.txt
+  117  mv Henry.txt Racine
+  118  cd Racine
+  119  ls
+  120  mv Henry.txt Legume.txt cd ..
+  121  ls
+  122  cd ..
+  123  mv Henry.txt Legume.txt
+  124  cd Legume.txt
+  125  cd /home/phil/desktop
+  126  cd
+  127  cd /home/
+  128  cd /home/phil/Desktop
+  129  touch Patate.txt
+  130  /Patate.txt
+  131  mv Patate.txt cd ./Racine
+  132  cd Racine
+  133  ls
+  134  l- ls
+  135  cd /home/phil/Desktop
+  136  echo "BONJOUR PAPA" >> Legume.txt
+  137  ls
+  138  ls Legume.txt
+  139  echo "SALUT" > Legume.txt
+  140  cat "bonjour
+  141  dsada 
+  142  salut
+  143  C,est fini/" > Legume.txt
+  144  echo 
+  145  echo "BBonjour
+  146  dasd
+  147  sdsadsfavafc
+  148  dcasdcsad
+  149  dcsalut
+  150  C<est fini" > Legume.txt
+  151  cd racine
+  152  cd Racine
+  153  cd ..
+  154  mv Legume.txt cd. 
+  155  mv cd. Legume.txt
+  156  touch star
+  157  echo "Interstellar" > star
+  158  ls star 
+  159  find
+  160  find b*
+  161  find star
+  162  ls -l
+  163  pwd
+  164  dir
+  165  ls
+  166  cat star
+  167  echo star
+  168  cat star
+  169  cat star ~
+  170  cat star more
+  171  cat star | more
+  172  cat star | less
+  173  echo "B
+  174  o
+  175  n
+  176  j
+  177  o
+  178  u
+  179  r
+  180  Salut
+  181  comment ca va
+  182  bien
+  183  ,
+  184  t
+  185  r
+  186  e
+  187  s
+  188  b
+  189  i
+  190  e
+  191  n
+  192  Philippe" > star
+  193  cat star
+  194  cat star | more
+  195  cat star | less
+  196  cd ~
+  197  cd Desktop
+  198  cd Racine
+  199  cd~
+  200  cd ~
+  201  cd Racine
+  202  cd Desktop
+  203  ls -al > /home/star
+  204  ls- alR
+  205  ls- alr
+  206  ls -l
+  207  ls -alr
+  208  cd Racine
+  209  ls -l
+  210  ls -alr
+  211  cd Desktp
+  212  cd Desktop
+  213  cat Legume
+  214  cat Legume.txt
+  215  pwd
+  216  dir
+  217  dir Racine
+  218  type Test.txt
+  219  type
+  220  type Legume.txt
+  221  type bonjour
+  222  ls
+  223  Desktop
+  224  cd Desktop
+  225  ls
+  226  dir
+  227  ls Desktop
+  228  dir Desktop
+  229  sudo passwd Phil
+  230  sudo passwd phil
+  231  whoami
+  232  sudo passwd root
+  233  su root
+  234  whoami
+  235  sudo passwd -l root
+  236  su root
+  237  sudo adduser Andy
+  238  sudo adduser andy
+  239  whoami
+  240  sudo addgroup groupe1
+  241  adduser andy groupe1
+  242  sudo adduser andy groupe1
+  243  more /etc/group
+  244  sudo chage -d 0 andy
+  245  su andy
+  246  whoami
+  247  more /etc/group | grep groupe1
+  248  sudo userdel -r andy
+  249  su andy
+  250  groupdel groupe1
+  251  sudo groupdel groupe1
+  252  more /etc/group | grep groupe1
+  253  cd ~/
+  254  umask -s
+  255  umask -S
+  256  touch toto.txt
+  257  stat toto.txt
+  258  mkdir tata
+  259  ls -l
+  260  chmod u=rwx,g=rw,o=r toto.txt
+  261  ls -l toto.txt
+  262  chmod 467 toto.txt
+  263  ls -l
+  264  mv -t tata toto.txt
+  265  cd tata
+  266  ls -l
+  267  sudo chown root toto.txt
+  268  ls -l toto.txt
+  269  mv toto.txt tutu.txt
+  270  cd ..
+  271  ls -l tata
+  272  sudo chgrp root tata
+  273  ls -l
+  274  ls- l
+  275  ls -l
+  276  find -name tutu.*
+  277  mkdir titi
+  278  cp -r tata titi
+  279  rm -dir titi
+  280  rm -dir tata
+  281  rm -dir titi
+  282  cd /
+  283  ls
+  284  sudo apt-get update
+  285  dpkg-query -l | grep nano
+  286  sudo apt-get install nano
+  287  apt-cache search nano
+  288  apt-cache show nano
+  289  apt-cache policy nano
+  290  nano
+  291  sudo apt-get remove nano
+  292  sudo apt-get nano
+  293  sudo apt-get install codelite
+  294  codelite
+  295  apt-get source libusb
+  296  sudo apt-get install libusb-dev
+  297  sudo apt-get install libusb-1.0.0-dev
+  298  echo -e "chien\nchat\nsouris" > toto.txt
+  299  cd
+  300  echo -e "chien\nchat\nsouris" > toto.txt
+  301  sort < toto.txt
+  302  sort < toto.txt > tata.txt
+  303  more toto.txt
+  304  more tata.txt
+  305  date >> tata.txt
+  306  more tata.txt
+  307  more toto.txt
+  308  more toto.txt | sort
+  309  du -h | sort
+  310  ls | tee tata.txt | sort
+  311  ls | tee tata.txt toto.txt
+  312  echo -e "1\n2\n3\n4\n5\n6" > toto.txt
+  313  more toto.txt | head -n3
+  314  more toto.txt | tail -n3
+  315  rm toto.txt tata.txt
+  316  echo -e "toto.txt tata.txt" > argument.txt
+  317  more argument | xargs touch
+  318  more arguments | xargs touch
+  319  ls
+  320  rm liste.txt toto.txt tutu.txt
+  321  echo "voici la date: $(date)"
+  322  echo $?
+  323  echo $PATH
+  324  top
+  325  ps
+  326  sleep 100
+  327  ps
+  328  pkill -9 sleep
+  329  ps
+  330  sleep 1
+  331  sleep 5
+  332  fg
+  333  bg
+  334  ps
+  335  sleep 10
+  336  fg
+  337  bg
+  338  ps
+  339  sleep 100
+  340  ps
+  341  kill -9 7952
+  342  ps
+  343  history >> PhilippeBourgault.txt

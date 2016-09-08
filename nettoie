@@ -1,0 +1,42 @@
+FILE=$1
+echo "Que voulez vous faire avec le fichier $1"
+echo "Effacer,Copier,Déplacer,Quitter [EeCcDdQq]"
+
+read var
+if [[($var = "E") || ($var = "e") ]];then
+echo "Effacement de $1"
+rm $1
+echo "Entrer le nouveau fichier à traiter ou sur [Qq] pour quitter"
+read var
+if [[($var = "Q") || ($var = "q") ]];then
+exit
+else
+./nettoie $var
+fi
+elif [[($var = "C") || ($var = "c") ]];then
+echo "copie de $1"
+echo "Nom du fichier copier :"
+read var
+cp $1 $var
+echo "Entrer le nouveau fichier à traiter ou sur [Qq] pour quitter"
+read var
+if [[($var = "Q") || ($var = "q") ]];then
+exit
+else
+./nettoie $var
+fi
+elif [[($var = "D") || ($var = "d") ]];then
+echo "Déplacement de $1 vers quelle destination?"
+read var
+mv $1 $var
+echo "Entrer le nouveau fichier à traiter ou sur [Qq] pour quitter"
+read var
+if [[($var = "Q") || ($var = "q") ]];then
+exit
+else
+./nettoie $var
+fi
+elif [[($var = "Q") || ($var = "q") ]];then
+exit
+fi
+
